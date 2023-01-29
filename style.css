@@ -1,8 +1,8 @@
-body {
+/* body {
 	font-family: 'Roboto', sans-serif;
 	/*background-image: url(img/code-institute.jpg);
  	background-size: cover;
- 	color: #ffffff;*/
+ 	color: #ffffff;
  	background-color: #eee;
 }
 
@@ -56,7 +56,7 @@ div {
 
 #container {
 	display: flex;		/* makes container a flexbox*/
-	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
+/*	flex-flow: row wrap; 	 layout the boxes in rows and wrap them
 	box-sizing:border-box;
 	margin-right:auto;
 	margin-left:auto;
@@ -69,10 +69,10 @@ div {
 }
 
 .card {
-	flex:1; /* */
+	flex:1; 
 	display: flex;	/* make the contents controllable by flexbox*/
-	flex-flow:column;	/* */
-	min-width: 240px; /**/
+/*	flex-flow:column;	
+	min-width: 240px; 
 	margin: 10px;
 	padding: 20px;
 	background-color: #fff;
@@ -96,7 +96,7 @@ div {
 Navigation
 **************************/
 
-nav {
+/* nav {
 	font-family: roboto;
 	background-color: #eee;
 	margin: 30px auto;
@@ -111,10 +111,10 @@ ul {
 	/*justify-content:flex-end;*/
 	/*justify-content:space-around;*/
 	/*align-items:flex-start;*/
-	align-items:baseline;
+/*	align-items:baseline;
 	border-radius: 10px;
 	list-style-type: none; /*Remove Bullets*/
-	padding: 0;	
+/*	padding: 0;	
 }
 
 li {
@@ -124,7 +124,7 @@ li {
 	/*border:2px solid #000;*/
 	/*background-color: #81BBC9;*/
 	/*border-radius: 10px;*/
-	font-family: Dosis;
+/*	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
 	font-size: 1.3em;
@@ -154,4 +154,24 @@ li {
 	li {
 		font-size: 2em;
 	}
+} */
+
+
+.container {
+	display: flex;		/* makes container a flexbox*/
+	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1050px;	
+}
+
+.box {
+	flex: 1; /* */
+	display: flex;	/* make the contents controllable by flexbox*/
+	flex-flow: column;	/* */
+	max-width: 240px; /**/
+	margin: 10px;
+	padding: 20px;
+	background-color: #000;
 }
